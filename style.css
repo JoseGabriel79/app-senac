@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background-image: url('img/senacbg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh; /* view-height -> altura da tela */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);  /* USAR ESTE ou A MASCARA*/
+}
+
+.logo{
+    max-width: 140px;
+}
+
+.container{
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    padding: 40px;
+    border-radius: 12px;
+    z-index: 99;
+    position: relative;
+
+}
+
+a{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.inputs-box, .buttons-box{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+input{
+    background-color: white;
+    color: grey;
+    padding: 6px;
+    border: none;
+    outline: 1px solid rgb(216, 216, 216);
+}
+
+input::placeholder{
+    color: rgb(163, 163, 163);
+}
+
+.btn-login{
+    background-color: rgb(15, 15, 114);
+    color: white;
+    border-radius: 4px;
+    padding: 6px 12px;
+    width: 160px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-login:hover{
+    background-color: rgb(31, 31, 147);
+}
+
+.btn-cadastro{
+    border: none;
+    background-color: transparent;
+    color: rgb(15, 15, 114);
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+    font-weight: 500;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+}
+
+/* USAR ESTA CLASSE NA DIV ou O BOX SHADOW q ESTÁ NO BODY */
+/* .mascara-bg{ 
+    background-color: rgba(10, 6, 49, 0.651);
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+}  */
