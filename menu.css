@@ -1,0 +1,48 @@
+body{
+    padding: 40px 20px;
+}
+ul img {
+    max-width: 80px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+li{
+    display: flex;
+    gap: 23px;
+    outline: 2px solid rgb(202, 202, 202);
+    padding: 12px;
+}
+
+button{
+    background-color: rgb(231, 151, 2);
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+}
+
+ul div{
+    width: 100%;
+}
+
+a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.mascara-bg{ /* USAR ESTA CLASSE NA DIV ou O BOX SHADOW q ESTÁ NO BODY */
+    
+    background-color: rgba(10, 6, 49, 0.651);
+    width: 100%;
+    height: 150%;
+    position: absolute;
+}
