@@ -1,0 +1,28 @@
+.disciplinas li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #18181861;
+    margin-bottom: 13px;
+}
+.disciplinas span{
+    color: rgba(128, 128, 128, 0.509);
+}
+.disciplinas{
+    background-color: #d9d9d9;
+    padding: 15px;
+    border-radius: 2px;
+
+}
+
+ul{
+    list-style: none;
+}
+body{
+    padding: 40px;
+}
+.unidades {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
