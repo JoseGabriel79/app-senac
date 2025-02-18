@@ -3,6 +3,7 @@ ul{
     margin: 0;
 }
 li{
+    padding: 10px;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -17,6 +18,7 @@ li{
 .accordion{
     border: 5px solid #d9d9d9d9;
     border-radius: 5px;
+    width: 60%;
 }
 
 .accordion-button:not(.collapsed) {
@@ -31,10 +33,14 @@ li{
 }
 
 .accordion-button:not(.collapsed) {
-    color: black;
+    color: rgb(218, 11, 11);
     background-color:#d9d9d9d9;
     box-shadow: none;
 }
 span{
     font-weight: 600;
+}
+li:hover{
+    font-weight: 800;
+    font-size: larger;
 }
