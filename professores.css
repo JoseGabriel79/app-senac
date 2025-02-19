@@ -1,0 +1,45 @@
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h2{
+    font-size: 22px;
+}
+.professor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: rgb(158, 154, 154, 0.5);
+    padding: 15px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.professor:nth-child(odd){
+    flex-direction: row;
+    background-color: rgb(158, 154, 154,0.8);
+}
+li div{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+span{
+    color: #787474;
+}
+li>img{/*Pega somente as imagens que são filhos diretos da li*/
+    margin-top: 15px;
+}
+
+/* ==
+.imgProf{ 
+} */
+a{
+    margin-top: 8px;
+    display: block;
+}
+/* position: relative;
+right: 65px;
+top: 60px; */
