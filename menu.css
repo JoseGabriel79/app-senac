@@ -16,6 +16,7 @@ li{
     display: flex;
     gap: 23px;
     outline: 2px solid rgb(202, 202, 202);
+    width: 100%;
     padding: 12px;
 }
 
