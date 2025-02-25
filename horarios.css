@@ -8,6 +8,7 @@ li{
     flex-direction: row;
     gap: 10px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .accordion-button{
     background-color: #d9d9d9d9;
