@@ -33,9 +33,10 @@ li>img{/*Pega somente as imagens que são filhos diretos da li*/
     margin-top: 15px;
 }
 
-/* ==
+
 .imgProf{ 
-} */
+    width: 80px;height: 80px; border-radius: 100%;
+} 
 a{
     margin-top: 8px;
     display: block;
