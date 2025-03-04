@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://api-senac.onrender.com/cadastrar/produto" method="POST">
+        <input type="text" name="nome" placeholder="Nome do produto" required>
+        <input type="number" name="preco" placeholder="Preço" required>
+
+        <select name="categoria" id="categoria">
+            <option value="" selected >Selecione uma categoria</option>
+            <option value="eletronicos">Eletronicos</option>
+            <option value="lazer">Lazer</option>
+            <option value="cozinha">Cozinha</option>
+        </select>
+        <div>
+            <label for="">Produto Usado</label>
+            <input type="checkbox" name="usado">
+        </div>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
