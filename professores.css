@@ -41,21 +41,24 @@ li>img{/*Pega somente as imagens que são filhos diretos da li*/
 } 
 a{
     margin-top: 8px;
-    display: block;
 }
 /* position: relative;
 right: 65px;
 top: 60px; */
-
 
 @media screen and (max-width: 700px) {
     .professor{
         display: flex;
         flex-direction: column;
     }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 300px) {
     .container{
         display: none;
     }
+
 }
